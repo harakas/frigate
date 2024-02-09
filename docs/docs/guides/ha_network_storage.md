@@ -1,9 +1,9 @@
 ---
 id: ha_network_storage
-title: Home Assistant network storage
+title: HA Network Storage
 ---
 
-As of Home Asisstant Core 2023.6, Network Mounted Storage is supported for addons.
+As of HomeAsisstant Core 2023.6, Network Mounted Storage is supported for addons.
 
 ## Setting Up Remote Storage For Frigate
 
@@ -16,7 +16,6 @@ As of Home Asisstant Core 2023.6, Network Mounted Storage is supported for addon
 
 1. Stop the Frigate addon
 2. Update your [config](configuration/index.md) so the DB is stored in the /config directory by adding:
-
 ```yaml
 database:
   path: /config/frigate.db

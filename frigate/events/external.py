@@ -52,7 +52,7 @@ class ExternalEventProcessor:
             (
                 EventTypeEnum.api,
                 "new",
-                camera,
+                camera_config,
                 {
                     "id": event_id,
                     "label": label,

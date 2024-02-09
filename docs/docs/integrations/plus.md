@@ -37,13 +37,11 @@ Snapshots must be enabled to be able to submit examples to Frigate+
 
 :::
 
-![Send To Plus](/img/plus/send-to-plus.jpg)
-
-![Submit To Plus](/img/plus/submit-to-plus.jpg)
+![Send To Plus](/img/send-to-plus.png)
 
 ### Annotate and verify
 
-You can view all of your submitted images at [https://plus.frigate.video](https://plus.frigate.video). Annotations can be added by clicking an image. For more detailed information about labeling, see the documentation on [improving your model](../plus/improving_model.md).
+You can view all of your submitted images at [https://plus.frigate.video](https://plus.frigate.video). Annotations can be added by clicking an image.
 
 ![Annotate](/img/annotate.png)
 
@@ -58,7 +56,7 @@ model:
 
 Models are downloaded into the `/config/model_cache` folder and only downloaded if needed.
 
-If needed, you can override the labelmap for Frigate+ models. This is not recommended as renaming labels will break the Submit to Frigate+ feature if the labels are not available in Frigate+.
+You can override the labelmap for Frigate+ models like this:
 
 ```yaml
 model:
